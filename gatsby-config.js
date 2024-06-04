@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Brian Makhembu',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Brian Makhembu is a skilled web and software developer with a strong focus on open-source contributions and UX design.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@uncle_ish',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +23,8 @@ module.exports = {
         name: 'Brittany Chiang',
         short_name: 'Brittany Chiang',
         start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        background_color: config.colors.midnightBlue,
+        theme_color: config.colors.royalBlue,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },

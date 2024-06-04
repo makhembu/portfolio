@@ -8,9 +8,10 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
-  height: 100vh;
-  padding: 0;
+  min-height: 90vh;
+  height: 80vh;
+  padding: 20;
+  padding-top: var(--top-padding);
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
@@ -60,28 +61,20 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Brian Makhembu</h2>;
+  const three = <h3 className="big-heading">I build things for the web</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I'm a web and software developer specializing in creating innovative and user-friendly
+        digital solutions. I focus on developing human-centered products that solve real-world
+        problems.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
+      Check out my resume!
     </a>
   );
 
