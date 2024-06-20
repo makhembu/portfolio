@@ -120,22 +120,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! I'm Brian, a passionate web developer with a knack for creating user-centered digital solutions. My journey in web development kicked off back in 2014 with WordPress, and I've been hooked ever since.
+              My name is Brian Makhembu, and I specialize in developing user-centered web solutions. I began my career in web development in 2014 with WordPress, and have since expanded my expertise across various technologies.
             </p>
 
             <p>
-              Over the years, I've had the opportunity to work with some amazing teams and companies. At <a href="https://aventus.com/">Aventus</a>, I led a project that boosted user engagement by 30% through a new customer service platform. My time at <a href="https://dalberg.com/">Dalberg Research</a> was particularly impactful, where I developed data visualizations that helped shape key policy decisions during the COVID-19 pandemic. Working with <a href="https://www.competentbrian.com">Competent Brian</a>, I created bespoke websites that increased client traffic by 40%, and at <a href="https://notifylogistics.com/">Notify Logistics</a>, I developed an automated system that cut operational costs by 25%.
+              During my tenure at <a href="https://aventus.com/">Aventus</a>, I led the development of a customer service platform that enhanced user engagement by 30%. At <a href="https://dalberg.com/">Dalberg Research</a>, I played a key role in creating data visualizations that informed policy decisions during the COVID-19 pandemic. At <a href="https://www.competentbrian.com">Competent Brian</a>, I designed bespoke websites that increased client traffic by 40%, and at <a href="https://notifylogistics.com/">Notify Logistics</a>, I developed an automated logistics system that reduced operational costs by 25%.
             </p>
 
             <p>
-              As a freelancer, I've tackled a variety of projects, from custom e-commerce sites that boosted sales by 50% to mobile app interfaces that received rave reviews for usability. My clients value my ability to deliver high-quality, timely solutions tailored to their specific needs.
+              As a freelancer, I have worked on diverse projects, including custom e-commerce websites that boosted sales by 50%, and mobile app interfaces praised for their usability. My clients appreciate the high-quality and timely solutions I provide.
             </p>
 
             <p>
-              These days, I'm focused on pushing the boundaries of what's possible with AI and continuing to expand my skills in computer security. I'm always on the lookout for exciting new challenges where I can make a meaningful impact.
+              Currently, I am focused on leveraging artificial intelligence to develop advanced digital experiences. I am also expanding my knowledge in computer security and actively seeking opportunities to contribute to impactful projects.
             </p>
 
-            <p>Here are some of the technologies I work with:</p>
+            <p>Here are some of the technologies I am proficient in:</p>
           </div>
 
           <ul className="skills-list">
@@ -149,7 +149,7 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
-      <p>If you're interested in collaborating or just want to chat about tech, feel free to <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.</p>
+      <p>If you are interested in collaborating or would like to discuss my work further, please <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.</p>
     </StyledAboutSection>
   );
 };
