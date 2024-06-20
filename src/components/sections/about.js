@@ -114,26 +114,29 @@ const About = () => {
             <p>
               Hey! I'm Brian, and I enjoy creating things for the web. My interest in web
               development started back in 2014 when I was working with WordPress. That experience
-              ignited my passion for building, human centered, digital solutions using HTML, CSS,
+              ignited my passion for building human-centered digital solutions using HTML, CSS,
               and beyond!
             </p>
 
             <p>
-              My journey has taken me through diverse roles at{' '}
-              <a href="https://aventus.com/">
-                a leading customer service outsourcing solutions company
-              </a>
-              , <a href="https://dalberg.com/">a full-service research agency</a>,{' '}
-              <a href="https://www.competentbrian.com">a creative writing agency</a>, and{' '}
-              <a href="https://notifylogistics.com/">a start-up company</a>. These experiences have
-              shaped my ability to deliver accessible, inclusive products and digital experiences.
+              Over the years, I have taken on diverse roles at 
+              <a href="https://aventus.com/"> a leading customer service outsourcing solutions company</a>, 
+              <a href="https://dalberg.com/"> a full-service research agency</a>, 
+              <a href="https://www.competentbrian.com"> a creative writing agency</a>, and 
+              <a href="https://notifylogistics.com/"> a start-up company</a>. 
+              These experiences have shaped my ability to deliver accessible, inclusive products and digital experiences.
             </p>
 
             <p>
-              These days, my main focus is on building digital experiences with{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">AI.</a> I'm
-              also expanding my knowledge by recently starting a course on Computer Security and am
-              actively seeking new opportunities to grow in this sector.
+              Some of my notable projects include developing a COVID-19 tracker during my time at Dalberg Research, 
+              and creating custom Windows applications for school computer labs while working at Farnham Technologies. 
+              These projects have honed my skills in data visualization, automation, and artificial intelligence.
+            </p>
+
+            <p>
+              These days, my main focus is on building digital experiences with 
+              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">AI.</a> 
+              I'm also expanding my knowledge by recently starting a course on Computer Security and am actively seeking new opportunities to grow in this sector.
             </p>
 
             <p>Here are a few technologies I am skilled in:</p>
@@ -150,6 +153,7 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
+      <p>If you would like to get in touch or learn more about my work, feel free to <a href="mailto:makhembu.brian@students.jkuat.ac.ke">contact me</a>.</p>
     </StyledAboutSection>
   );
 };
