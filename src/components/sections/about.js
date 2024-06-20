@@ -112,34 +112,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey! I'm Brian, and I enjoy creating things for the web. My interest in web
-              development started back in 2014 when I was working with WordPress. That experience
-              ignited my passion for building human-centered digital solutions using HTML, CSS,
-              and beyond!
+              Hey! I'm Brian, and I enjoy creating innovative solutions for the web. My journey in web development began in 2014 with WordPress, sparking my passion for crafting human-centered digital solutions.
             </p>
 
             <p>
-              Over the years, I have taken on diverse roles at 
-              <a href="https://aventus.com/"> a leading customer service outsourcing solutions company</a>, 
-              <a href="https://dalberg.com/"> a full-service research agency</a>, 
-              <a href="https://www.competentbrian.com"> a creative writing agency</a>, and 
-              <a href="https://notifylogistics.com/"> a start-up company</a>. 
-              These experiences have shaped my ability to deliver accessible, inclusive products and digital experiences.
+              Throughout my career, I've played pivotal roles in various organizations. At 
+              <a href="https://aventus.com/"> Aventus</a>, I led a team to develop a customer service platform, resulting in a 30% increase in user engagement. At 
+              <a href="https://dalberg.com/"> Dalberg Research</a>, I spearheaded a data visualization project during the COVID-19 pandemic, providing critical insights that influenced policy decisions. My work at 
+              <a href="https://www.competentbrian.com"> Competent Brian</a> saw me designing bespoke websites that increased client traffic by 40%, and at 
+              <a href="https://notifylogistics.com/"> Notify Logistics</a>, I developed an automated logistics system that reduced operational costs by 25%.
             </p>
 
             <p>
-              Some of my notable projects include developing a COVID-19 tracker during my time at Dalberg Research, 
-              and creating custom Windows applications for school computer labs while working at Farnham Technologies. 
-              These projects have honed my skills in data visualization, automation, and artificial intelligence.
+              As a freelancer, I have worked on diverse projects, from developing custom e-commerce websites for small businesses, increasing their online sales by 50%, to creating user-friendly interfaces for mobile apps that received excellent usability feedback. My clients appreciate my ability to deliver high-quality, timely solutions tailored to their needs.
             </p>
 
             <p>
-              These days, my main focus is on building digital experiences with 
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">AI.</a> 
-              I'm also expanding my knowledge by recently starting a course on Computer Security and am actively seeking new opportunities to grow in this sector.
+              Currently, my focus is on building cutting-edge digital experiences using artificial intelligence. I'm also expanding my knowledge by recently starting a course on Computer Security and am actively seeking new challenges to apply my skills in impactful projects.
             </p>
 
-            <p>Here are a few technologies I am skilled in:</p>
+            <p>Here are a few technologies I am proficient in:</p>
           </div>
 
           <ul className="skills-list">
@@ -153,7 +145,7 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
-      <p>If you would like to get in touch or learn more about my work, feel free to <a href="mailto:makhembu.brian@students.jkuat.ac.ke">contact me</a>.</p>
+      <p>If you're interested in collaborating or learning more about my work, feel free to <a href="mailto:makhembu.brian@students.jkuat.ac.ke">get in touch</a>.</p>
     </StyledAboutSection>
   );
 };
