@@ -66,7 +66,7 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: var(--border-radius);
+      border-radius: var (--border-radius);
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
@@ -92,16 +92,24 @@ const About = () => {
   }, [prefersReducedMotion]);
 
   const skills = [
-    'Python',
+    'JavaScript',
     'React',
+    'Angular',
+    'Vue.js',
     'Node.js',
-    'WordPress',
-    'FlutterFlow',
-    'Mendix',
-    'PowerApps',
-    'Artificial Intelligence',
+    'SQL',
+    'NoSQL (MongoDB)',
+    'AWS',
+    'Azure',
+    'Google Cloud Platform',
+    'Cybersecurity',
+    'Machine Learning',
     'Data Visualization',
-    'Automation (Selenium)',
+    'HTML',
+    'CSS',
+    'Communication',
+    'Collaboration',
+    'Problem-Solving',
   ];
 
   return (
