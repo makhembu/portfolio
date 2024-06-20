@@ -116,11 +116,7 @@ const About = () => {
             </p>
 
             <p>
-              Throughout my career, I've played pivotal roles in various organizations. At 
-              <a href="https://aventus.com/"> Aventus</a>, I led a team to develop a customer service platform, resulting in a 30% increase in user engagement. At 
-              <a href="https://dalberg.com/"> Dalberg Research</a>, I spearheaded a data visualization project during the COVID-19 pandemic, providing critical insights that influenced policy decisions. My work at 
-              <a href="https://www.competentbrian.com"> Competent Brian</a> saw me designing bespoke websites that increased client traffic by 40%, and at 
-              <a href="https://notifylogistics.com/"> Notify Logistics</a>, I developed an automated logistics system that reduced operational costs by 25%.
+              Throughout my career, I've played pivotal roles in various organizations. At <a href="https://aventus.com/">Aventus</a>, I led a team to develop a customer service platform, resulting in a 30% increase in user engagement. At <a href="https://dalberg.com/">Dalberg Research</a>, I spearheaded a data visualization project during the COVID-19 pandemic, providing critical insights that influenced policy decisions. My work at <a href="https://www.competentbrian.com">Competent Brian</a> saw me designing bespoke websites that increased client traffic by 40%, and at <a href="https://notifylogistics.com/">Notify Logistics</a>, I developed an automated logistics system that reduced operational costs by 25%.
             </p>
 
             <p>
