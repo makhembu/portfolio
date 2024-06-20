@@ -141,7 +141,7 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
-      <p>If you're interested in collaborating or learning more about my work, feel free to <a href="mailto:makhembu.brian@students.jkuat.ac.ke">get in touch</a>.</p>
+      <p>If you're interested in collaborating or learning more about my work, feel free to <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.</p>
     </StyledAboutSection>
   );
 };
