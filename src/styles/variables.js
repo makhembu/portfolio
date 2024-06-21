@@ -2,17 +2,17 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #f7f7f7; /* primary-bg */
-    --navy: #ffffff; /* secondary-bg */
-    --light-navy: #333333; /* primary-text */
-    --lightest-navy: #555555; /* secondary-text */
-    --navy-shadow: #007BFF; /* primary-accent */
-    --dark-slate: #FF5722; /* secondary-accent */
-    --slate: #007BFF; /* button-bg */
-    --light-slate: #ffffff; /* button-text */
-    --lightest-slate: #007BFF; /* link-color */
-    --white: #0056b3; /* link-hover */
-    --green: #dddddd; /* border-color */
+    --dark-navy: #121212; /* primary-bg */
+    --navy: #1F1F1F; /* secondary-bg */
+    --light-navy: #E0E0E0; /* primary-text */
+    --lightest-navy: #B0B0B0; /* secondary-text */
+    --navy-shadow: rgba(2, 12, 27, 0.7); /* shadow */
+    --dark-slate: #373737; /* border-color */
+    --slate: #BB86FC; /* primary-accent */
+    --light-slate: #121212; /* button-text */
+    --lightest-slate: #03DAC5; /* link-hover */
+    --white: #E0E0E0; /* light-text */
+    --green: #BB86FC; /* button-bg */
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
