@@ -2,20 +2,20 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #121212; /* primary-bg */
-    --navy: #1F1F1F; /* secondary-bg */
-    --light-navy: #E0E0E0; /* primary-text */
-    --lightest-navy: #B0B0B0; /* secondary-text */
-    --navy-shadow: rgba(2, 12, 27, 0.7); /* shadow */
-    --dark-slate: #373737; /* border-color */
-    --slate: #BB86FC; /* primary-accent */
-    --light-slate: #121212; /* button-text */
-    --lightest-slate: #03DAC5; /* link-hover */
-    --white: #E0E0E0; /* light-text */
-    --green: #BB86FC; /* button-bg */
+    --dark-navy: #f0f0f0; /* primary-bg */
+    --navy: #ffffff; /* secondary-bg */
+    --light-navy: #333333; /* primary-text */
+    --lightest-navy: #555555; /* secondary-text */
+    --navy-shadow: rgba(0, 0, 0, 0.1); /* shadow */
+    --dark-slate: #cccccc; /* border-color */
+    --slate: #0056b3; /* primary-accent */
+    --light-slate: #ffffff; /* button-text */
+    --lightest-slate: #003366; /* link-hover */
+    --white: #333333; /* light-text */
+    --green: #0056b3; /* button-bg */
+    --secondary-accent: #009688; /* secondary-accent */
 
-    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
-      sans-serif;
+    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 
     --fz-xxs: 12px;
