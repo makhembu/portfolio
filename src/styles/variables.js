@@ -2,18 +2,17 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #f0f0f0; /* primary-bg */
-    --navy: #ffffff; /* secondary-bg */
-    --light-navy: #333333; /* primary-text */
-    --lightest-navy: #555555; /* secondary-text */
-    --navy-shadow: rgba(0, 0, 0, 0.1); /* shadow */
-    --dark-slate: #cccccc; /* border-color */
-    --slate: #0056b3; /* primary-accent */
-    --light-slate: #ffffff; /* button-text */
-    --lightest-slate: #003366; /* link-hover */
-    --white: #333333; /* light-text */
-    --green: #0056b3; /* button-bg */
-    --secondary-accent: #009688; /* secondary-accent */
+    --dark-navy: #1E1E2F;       /* Primary Background Color */
+    --navy: #2C2C3E;            /* Secondary Background Color */
+    --light-navy: #3B3B52;      /* Highlight Background Color */
+    --lightest-navy: #2C2C3E;   /* Card Background Color */
+    --navy-shadow: rgba(30, 30, 47, 0.7);  /* Shadow effects */
+    --dark-slate: #8A8A99;      /* Muted Text Color */
+    --slate: #B0B0C3;           /* Secondary Text Color */
+    --light-slate: #B0B0C3;     /* Secondary Text Color */
+    --lightest-slate: #F5F5FA;  /* Primary Text Color */
+    --white: #F5F5FA;           /* Primary Text Color */
+    --green: #FF6F61;   
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
