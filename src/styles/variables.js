@@ -4,15 +4,16 @@ const variables = css`
   :root {
      --dark-navy: #121212;       /* Primary Background Color */
     --navy: #1E1E1E;            /* Secondary Background Color */
-    --light-navy: #282828;      /* Highlight Background Color */
+    --light-navy: #252525;      /* Highlight Background Color */
     --lightest-navy: #1E1E1E;   /* Card Background Color */
     --navy-shadow: rgba(18, 18, 18, 0.7);  /* Shadow effects */
-    --dark-slate: #888888;      /* Muted Text Color */
-    --slate: #CCCCCC;           /* Secondary Text Color */
-    --light-slate: #CCCCCC;     /* Secondary Text Color */
-    --lightest-slate: #FAFAFA;  /* Primary Text Color */
-    --white: #FAFAFA;           /* Primary Text Color */
-    --green: #FF9800;      
+    --dark-slate: #757575;      /* Muted Text Color */
+    --slate: #A0A0A0;           /* Secondary Text Color */
+    --light-slate: #A0A0A0;     /* Secondary Text Color */
+    --lightest-slate: #F0F0F0;  /* Primary Text Color */
+    --white: #F0F0F0;           /* Primary Text Color */
+    --green: #FF5722; 
+
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
