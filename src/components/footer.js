@@ -80,6 +80,7 @@ const Footer = () => {
     fetch('https://api.github.com/repos/makhembu/portfolio')
       .then(response => response.json())
       .then(json => {
+        console.log(json); // Log the response to verify data
         const { stargazers_count, forks_count } = json;
         setGitHubInfo({
           stars: stargazers_count,
@@ -108,7 +109,7 @@ const Footer = () => {
         <a href="https://github.com/makhembu/portfolio">
           <div>Designed by Brian Makhembu</div>
 
-          {githubInfo.stars && githubInfo.forks && (
+          {githubInfo.stars !== null && githubInfo.forks !== null && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
