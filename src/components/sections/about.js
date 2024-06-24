@@ -6,11 +6,13 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   width: 100%;
+  max-width: none;
   padding: 0 20px;
+  margin: 0 auto;
 
   .inner {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 50px;
     width: 100%;
 
@@ -45,32 +47,6 @@ const StyledText = styled.div`
         font-size: var(--fz-sm);
         line-height: 12px;
       }
-    }
-  }
-`;
-
-const StyledPic = styled.div`
-  position: relative;
-  max-width: 300px;
-  margin: 0 auto;
-
-  @media (max-width: 768px) {
-    margin: 50px auto 0;
-    width: 70%;
-  }
-
-  .wrapper {
-    ${({ theme }) => theme.mixins.boxShadow};
-    display: block;
-    position: relative;
-    width: 100%;
-    border-radius: var(--border-radius);
-
-    .img {
-      position: relative;
-      border-radius: var(--border-radius);
-      filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
     }
   }
 `;
@@ -138,12 +114,6 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-
-        <StyledPic>
-          <div className="wrapper">
-            {/* Image removed */}
-          </div>
-        </StyledPic>
       </div>
       <p>If you are interested in collaborating or would like to discuss my work further, please <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.</p>
     </StyledAboutSection>
