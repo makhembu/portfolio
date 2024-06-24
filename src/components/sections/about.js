@@ -6,8 +6,8 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   width: 100%;
-  max-width: 1200px; /* Set a max width for better readability on large screens */
-  padding: 40px 20px; /* Add padding for spacing around the section */
+  max-width: none;
+  padding: 0 20px;
   margin: 0 auto;
 
   .inner {
@@ -16,25 +16,24 @@ const StyledAboutSection = styled.section`
     grid-gap: 50px;
     width: 100%;
 
-    @media (min-width: 768px) {
-      grid-template-columns: 3fr 2fr;
+    @media (max-width: 768px) {
+      display: block;
     }
   }
 `;
 
 const StyledText = styled.div`
-  p {
-    font-size: 1.1rem; /* Adjust font size for better readability */
-    line-height: 1.6; /* Increase line height for better spacing between lines */
-    margin-bottom: 20px;
+  p:last-child {
+    margin-bottom: 20px; /* Add spacing between the skills list and the last paragraph */
   }
 
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
-    grid-gap: 10px 20px;
+    grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
+    overflow: hidden;
     list-style: none;
 
     li {
@@ -97,32 +96,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Brian Makhembu, and I specialize in developing user-centered web solutions.
-              I began my career in web development in 2014 with WordPress, and have since expanded my
-              expertise across various technologies.
+              My name is Brian Makhembu, and I specialize in developing user-centered web solutions. I began my career in web development in 2014 with WordPress, and have since expanded my expertise across various technologies.
             </p>
 
             <p>
-              During my tenure at <a href="https://aventus.com/">Aventus</a>, I led the development
-              of a customer service platform that enhanced user engagement by 30%. At{' '}
-              <a href="https://dalberg.com/">Dalberg Research</a>, I played a key role in creating
-              data visualizations that informed policy decisions during the COVID-19 pandemic. At{' '}
-              <a href="https://www.competentbrian.com">Competent Brian</a>, I designed bespoke
-              websites that increased client traffic by 40%, and at{' '}
-              <a href="https://notifylogistics.com/">Notify Logistics</a>, I developed an automated
-              logistics system that reduced operational costs by 25%.
+              During my tenure at <a href="https://aventus.com/">Aventus</a>, I led the development of a customer service platform that enhanced user engagement by 30%. At <a href="https://dalberg.com/">Dalberg Research</a>, I played a key role in creating data visualizations that informed policy decisions during the COVID-19 pandemic. At <a href="https://www.competentbrian.com">Competent Brian</a>, I designed bespoke websites that increased client traffic by 40%, and at <a href="https://notifylogistics.com/">Notify Logistics</a>, I developed an automated logistics system that reduced operational costs by 25%.
             </p>
 
             <p>
-              As a freelancer, I have worked on diverse projects, including custom e-commerce
-              websites that boosted sales by 50%, and mobile app interfaces praised for their
-              usability. My clients appreciate the high-quality and timely solutions I provide.
+              As a freelancer, I have worked on diverse projects, including custom e-commerce websites that boosted sales by 50%, and mobile app interfaces praised for their usability. My clients appreciate the high-quality and timely solutions I provide.
             </p>
 
             <p>
-              Currently, I am focused on leveraging artificial intelligence to develop advanced
-              digital experiences. I am also expanding my knowledge in computer security and
-              actively seeking opportunities to contribute to impactful projects.
+              Currently, I am focused on leveraging artificial intelligence to develop advanced digital experiences. I am also expanding my knowledge in computer security and actively seeking opportunities to contribute to impactful projects.
             </p>
 
             <p>Here are some of the technologies I am proficient in:</p>
@@ -133,9 +119,8 @@ const About = () => {
           </ul>
         </StyledText>
       </div>
-      <p>
-        If you are interested in collaborating or would like to discuss my work further, please{' '}
-        <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.
+      <p style={{ marginTop: '20px' }}>
+        If you are interested in collaborating or would like to discuss my work further, please <a href="mailto:makhembu.brian@gmail.com">get in touch</a>.
       </p>
     </StyledAboutSection>
   );
