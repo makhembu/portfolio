@@ -5,12 +5,14 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  width: 100%;
+  padding: 0 20px;
 
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
+    width: 100%;
 
     @media (max-width: 768px) {
       display: block;
@@ -69,12 +71,6 @@ const StyledPic = styled.div`
       border-radius: var(--border-radius);
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
-    }
-
-    &:before,
-    &:after {
-      content: '';
-      display: none; /* Hide the pseudo-elements to remove the green line */
     }
   }
 `;
