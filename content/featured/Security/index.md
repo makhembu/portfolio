@@ -1,15 +1,15 @@
 ---
-date: '2'
+date: '3'
 title: 'App'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/makhembu/AIimagegen.git'
+external: 'https://www.dropbox.com/scl/fi/sf9qvdu7493i0h14tsmhs/Image-gerator-release_6.apk?rlkey=5l0lc9qjmtjubkt4a3cyobvhr&st=iijm2mv3&dl=1'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - AI
+  - Prompts
+  - UI/UX
+  - Image Generator
+  - netlify
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+This AI image generation app allows users to input prompts to create images, manage their account through login, account creation, and password recovery functionalities.
