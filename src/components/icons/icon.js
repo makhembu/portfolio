@@ -44,14 +44,14 @@ const Icon = ({ name }) => {
       return <IconLogo />;
     case 'PlayStore':
       return <IconPlayStore />;
-    case 'Whatsapp':
-      return <IconWhatsapp />;
     case 'Star':
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
     default:
       return <IconExternal />;
+    case 'Whatsapp':
+      return <IconWhatsapp />;
   }
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IconWhatsApp = () => (
+const IconWhatsapp = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 50 50"
@@ -17,4 +17,4 @@ const IconWhatsApp = () => (
   </svg>
 );
 
-export default IconWhatsApp;
+export default IconWhatsapp;
