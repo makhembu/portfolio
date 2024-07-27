@@ -68,12 +68,24 @@ const About = () => {
   }, [prefersReducedMotion]);
 
   const skills = [
-    'Languages: JavaScript, HTML, CSS',
-    'Frameworks: React, Angular, Vue.js, Node.js',
-    'Databases: SQL, NoSQL (MongoDB)',
-    'Cloud Platforms: AWS, Azure, Google Cloud Platform',
-    'Other: Cybersecurity, Machine Learning, Data Visualization',
-    'Soft Skills: Communication, Collaboration, Problem-Solving',
+    'JavaScript',
+    'React',
+    'Angular',
+    'Vue.js',
+    'Node.js',
+    'SQL',
+    'NoSQL (MongoDB)',
+    'AWS',
+    'Azure',
+    'Google Cloud Platform',
+    'Cybersecurity',
+    'Machine Learning',
+    'Data Visualization',
+    'HTML',
+    'CSS',
+    'Communication',
+    'Collaboration',
+    'Problem-Solving',
   ];
 
   return (
