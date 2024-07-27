@@ -2,20 +2,23 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-     --dark-navy: #121212;       /* Primary Background Color */
-    --navy: #1E1E1E;            /* Secondary Background Color */
-    --light-navy: #252525;      /* Highlight Background Color */
-    --lightest-navy: #1E1E1E;   /* Card Background Color */
-    --navy-shadow: rgba(18, 18, 18, 0.7);  /* Shadow effects */
-    --dark-slate: #757575;      /* Muted Text Color */
-    --slate: #A0A0A0;           /* Secondary Text Color */
-    --light-slate: #A0A0A0;     /* Secondary Text Color */
-    --lightest-slate: #F0F0F0;  /* Primary Text Color */
-    --white: #F0F0F0;           /* Primary Text Color */
-    --green: #FF5722; 
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100, 255, 218, 0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
 
-
-    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
+      sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 
     --fz-xxs: 12px;
@@ -29,7 +32,6 @@ const variables = css`
 
     --border-radius: 4px;
     --nav-height: 100px;
-    --top-padding: 200px;
     --nav-scroll-height: 70px;
 
     --tab-height: 42px;
