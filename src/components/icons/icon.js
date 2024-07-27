@@ -43,6 +43,8 @@ const Icon = ({ name }) => {
       return <IconLogo />;
     case 'PlayStore':
       return <IconPlayStore />;
+    case 'Whatsapp':
+      return <IconWhatsapp />;
     case 'Star':
       return <IconStar />;
     case 'Twitter':
