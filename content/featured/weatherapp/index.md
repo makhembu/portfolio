@@ -1,16 +1,14 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Weather App with API'
+cover: './Weather.png'
+external: 'https://www.dropbox.com/scl/fi/w2ike87dv6u5eta199cue/weather-app-release.apk?rlkey=qbreoq36ooxzn5cwhlcgk4nyc&st=p7r8qb1f&dl=1'
+cta: 'https://www.dropbox.com/scl/fi/w2ike87dv6u5eta199cue/weather-app-release.apk?rlkey=qbreoq36ooxzn5cwhlcgk4nyc&st=p7r8qb1f&dl=1'
 tech:
   - React
-  - Express
-  - Spotify API
+  - Flutter
+  - Weather API
   - Styled Components
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
-
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+The Weather App provides users with accurate and up-to-date weather information for their selected location. With a clean and modern interface, users can quickly access key weather metrics and plan their day accordingly.
