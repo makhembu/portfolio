@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Personal Flutter Portfolio'
-cover: './porfolio.png'
+cover: './portfolio.png'
 github: 'https://github.com/makhembu/flutterportfolio.git'
 external: 'https://makhembubrian.netlify.app/'
 tech:
