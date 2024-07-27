@@ -22,6 +22,10 @@ module.exports = {
       name: 'Codepen',
       url: 'https://codepen.io/makhembu',
     },
+    {
+      name: 'Whatsapp',
+      url: 'https://wa.me/254798599139?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service,%20can%20you%20help%20me?',
+    },
   ],
 
   navLinks: [
