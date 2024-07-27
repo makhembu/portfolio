@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'App'
+title: 'AI Image generator Dream Sketch'
 cover: './demo.png'
 github: 'https://github.com/makhembu/AIimagegen.git'
 external: 'https://www.dropbox.com/scl/fi/sf9qvdu7493i0h14tsmhs/Image-gerator-release_6.apk?rlkey=5l0lc9qjmtjubkt4a3cyobvhr&st=iijm2mv3&dl=1'
